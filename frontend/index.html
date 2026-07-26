@@ -5,16 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <!-- AngularJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js"
         integrity="sha512-+5yvGOmUplqhsKBn7oRlW8+Bci6NMeKV89/tgVrBdOq5fn9ZhG5YPrYIjPcmNbnFKWivz34qjQkLyM5YGn7Q4A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
 
     <!-- Angular UI -->
     <script src="https://cdn.jsdelivr.net/npm/angular-ui-bootstrap@2.5.6/dist/ui-bootstrap.min.js"></script>
@@ -24,13 +22,12 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/0be6100f9e.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="frontend/styles.css">
-
+    <!-- Local stylesheet -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body ng-app="myApp" ng-controller="appCtrl">
-
-    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+    <!-- <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <ul class="nav navbar-nav">
                 <li class="active">
@@ -78,15 +75,11 @@
             </ul>
 
         </div>
-    </nav>
-    <div class="col-sm-4">{{data.message}}</div>
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4"></div>
+    </nav> -->
+    <div>{{data.message}}</div>
 
-
-
-    <script src="/frontend/app.js"></script>
-    <script src="/frontend/appCtrl.js"></script>
+    <script src="app.js"></script>
+    <script src="appCtrl.js"></script>
 
 </body>
 
