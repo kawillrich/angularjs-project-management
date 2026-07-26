@@ -11,6 +11,10 @@ angular.module('myApp').controller('TabsCtrl', function($scope, $window) {
         {
             title: "List",
             content: "List"
+        },
+        {
+            title: "Reference",
+            content: "Reference"
         }
     ];
 
